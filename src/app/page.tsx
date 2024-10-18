@@ -12,9 +12,9 @@ export default async function Home() {
                     <p className="text-xl mb-8">Where code meets the ocean floor</p>
                     <div className="inline-flex p-2 bg-blue-950 bg-opacity-50 rounded-full backdrop-blur-md">
                         <Image src="/assets/images/avatar.jpg" alt="Developer Avatar"
-                               className="rounded-full" width={200} height={200} />
+                               className="rounded-full" width={200} height={200} priority={false} />
                     </div>
-                </div>
+                </div>eco index, website carbon, light house
             </section>
 
             <section id={"about"} className="py-20 px-4 sm:px-6 lg:px-8 bg-blue-900 bg-opacity-30">
