@@ -1,9 +1,9 @@
-"use client";
+"use server";
 
 import Image from "next/image";
 import { technologies, projects } from "@/data";
 
-export default function Home() {
+export default async function Home() {
     return (
         <>
             <section className="py-20 px-4 sm:px-6 lg:px-8 bg-cover bg-center">
@@ -11,8 +11,8 @@ export default function Home() {
                     <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 text-cyan-400">Welcome to the Depths</h1>
                     <p className="text-xl mb-8">Where code meets the ocean floor</p>
                     <div className="inline-flex p-2 bg-blue-950 bg-opacity-50 rounded-full backdrop-blur-md">
-                        <Image src="/assets/images/avatar.webp" alt="Developer Avatar"
-                               className="rounded-full" width={200} height={200}/>
+                        <Image src="/assets/images/avatar.jpg" alt="Developer Avatar"
+                               className="rounded-full" width={200} height={200} />
                     </div>
                 </div>
             </section>
