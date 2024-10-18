@@ -14,7 +14,7 @@ export default async function Home() {
                         <Image src="/assets/images/avatar.jpg" alt="Developer Avatar"
                                className="rounded-full" width={200} height={200} priority={false} />
                     </div>
-                </div>eco index, website carbon, light house
+                </div>
             </section>
 
             <section id={"about"} className="py-20 px-4 sm:px-6 lg:px-8 bg-blue-900 bg-opacity-30">
